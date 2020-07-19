@@ -28,3 +28,30 @@ p {
     background-color: #031a3d;
     border-radius: 10mm;
 }
+
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 40px;
+    width: 1100px;
+    height: 800px;
+}
+
+#calendar {
+    background-color: #064163;
+}
+
+h1 {
+    color: #6da7c9;
+}
+
+.Physics {}
+
+.progress {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
