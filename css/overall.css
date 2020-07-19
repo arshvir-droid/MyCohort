@@ -1,0 +1,49 @@
+.headerContainer {
+    display: grid;
+    height: 100px;
+    align-items: center;
+    background-color: #064163;
+    color: azure;
+    border-bottom: solid 2px #6DA7C9;
+    text-align: center;
+    font-family: monospace;
+}
+
+.popUpContainer {
+    display: grid;
+    height: 150px;
+    align-items: center;
+    background-color: #064163;
+    color: azure;
+    border-bottom: solid 5px #6DA7C9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button { /*FIX THIS*/
+    text-align: center;
+    background-color: #6DA7C9;
+    border-radius: 10px;
+    justify-items:end;
+    width: 150px;
+}
+
+.yourDisplayContainer {
+    display: grid;
+    align-items: center;
+    background-color: #0f7BAA;
+    color: azure;
+    border-bottom: solid 5px #6DA7C9;
+}
+.section {
+        border-right: solid 1px #6DA7C9;
+        border-bottom: solid 1px #6DA7C9;
+}
+.person {
+    background-color: #6DA7C9;
+    border-bottom: solid 1px white;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
