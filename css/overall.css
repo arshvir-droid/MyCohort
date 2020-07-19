@@ -1,49 +1,69 @@
-.headerContainer {
+/*Redo Everything */
+.interactiveAspect {
     display: grid;
-    height: 100px;
-    align-items: center;
-    background-color: #064163;
-    color: azure;
-    border-bottom: solid 2px #6DA7C9;
-    text-align: center;
-    font-family: monospace;
-}
-
-.popUpContainer {
-    display: grid;
-    height: 150px;
-    align-items: center;
-    background-color: #2f3136;
-    color: azure;
-    border-bottom: solid 5px #6DA7C9;
+    background-color: grey;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-.button { /*FIX THIS*/
+.button {
     text-align: center;
     background-color: #6DA7C9;
     border-radius: 10px;
-    justify-items:end;
-    width: 150px;
 }
 
-.yourDisplayContainer {
+.mainTopic {
     display: grid;
     align-items: center;
     background-color: #0f7BAA;
     color: azure;
     border-bottom: solid 5px #6DA7C9;
+    padding-top: 10px;
 }
+.message {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.box {
+    align-items: center;
+    justify-items: center;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 10px;
+    border-right: 1px solid black;
+}
+.dp {
+    width: 50px;
+    height: 50px;
+}
+.info {
+    padding-left: 30px;
+}
+
 .section {
         border-right: solid 5px #6DA7C9;
         border-bottom: solid 5px #6DA7C9;
 }
-.person {
-    background-color: #6DA7C9;
-    border-bottom: solid 1px white;
+/* FOOTER CSS*/
+#socialRow {
 }
-img {
+.pictures {
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.social {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
+}
+
+.words {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.email{
+    padding-top: 20px;
 }
