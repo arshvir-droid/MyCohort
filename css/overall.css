@@ -47,6 +47,8 @@
 }
 /* FOOTER CSS*/
 #socialRow {
+    background-color: grey;
+    color: azure;
 }
 .pictures {
     padding-top: 20px;
