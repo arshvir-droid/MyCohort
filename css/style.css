@@ -63,3 +63,17 @@ body {
     color: blueviolet;
     font-weight: bolder;
 }
+
+#homepage {
+    width: 25%;
+    background-color: green;
+    height: 33px;
+}
+
+#homepage:hover {
+    color: gold
+}
+
+#homepage:disabled {
+    cursor: not-allowed;
+}
