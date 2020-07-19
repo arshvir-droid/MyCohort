@@ -1,13 +1,30 @@
 .MyCohort {
     position: inherit;
-    height: 60px;
+    height: 65px;
     width: 200px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-#navbar {
-    background-color: #869098;
-    transition: 2s;
+body {
+    background-color: #031a3d;
+}
+
+.carousel-inner {
+    height: 800px;
+    padding-bottom: inherit;
+}
+
+h5 {
+    padding-bottom: 10px;
+}
+
+p {
+    padding-bottom: 150px;
+}
+
+#caption {
+    background-color: #031a3d;
+    border-radius: 10mm;
 }

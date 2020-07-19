@@ -13,11 +13,11 @@
 
 <body>
     <header>
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0" id="header">
             <div class="fixed-top">
                 <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="bg-dark p-4">
-                        <a class="text-white h4 p-1" href="home.html">Home</a>
+                    <div class="topDown p-4" style="background-color: #031a3d;">
+                        <a class="text-white h4" href="home.html">Home</a>
                         <br>
                         <a class="text-white h4" href="messages.html">Messages</a>
                         <br>
@@ -26,14 +26,14 @@
                         <a class="text-white h4" href="finances.html">Finances</a>
                     </div>
                 </div>
-                <nav class="navbar navbar-dark bg-dark" id="navbar">
+                <nav class="navbar navbar-light" style="background-color: #ffbd59;">
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <img class="MyCohort" src="images/logo1.png" alt="MyCohort" class="logo">
-                    <a class="text-white h3" href="login.html">Logout</a>
+                    <a href="Main.html"><button type="button" class="btn btn-danger">LOGOUT</button></a>
                 </nav>
             </div>
         </div>
@@ -48,21 +48,21 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/Code.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block" id="caption">
                         <h5>Ministry of Education introduces new class curriculum</h5>
                         <p>Now students in elementary school will be taught coding and personal finanace!</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/DECA.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block" id="caption">
                         <h5>DECA Provincials Meeting</h5>
                         <p>Meeting for all students attending DECA Provincials in room 118 at 2:30.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/hackathon.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block" id="caption">
                         <h5>New Hackathon Alert</h5>
                         <p>Presenting BridgeHacks! A hackathon open to everybody!</p>
                     </div>
